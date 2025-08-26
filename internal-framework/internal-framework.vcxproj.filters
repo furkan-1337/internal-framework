@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{d871a1e7-197b-4e34-980a-926a5b99c3c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\debug">
+      <UniqueIdentifier>{e9ceeeff-94ef-46ac-9423-945e6827d35c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\thirdparty">
+      <UniqueIdentifier>{dc5f0c1c-7213-41a3-919e-f3748e575732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\thirdparty\imgui">
+      <UniqueIdentifier>{fa9a6358-2c31-4555-983a-8081ba2315b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\thirdparty\imgui\backends">
+      <UniqueIdentifier>{d1c7741e-8746-46a9-958c-93e18bca09ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\thirdparty\minhook">
+      <UniqueIdentifier>{ce9ce7ba-53f4-417b-b022-41a2b128ddb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\thirdparty\minhook\include">
+      <UniqueIdentifier>{992bb770-8e4b-44cf-b593-9a3f160d1fa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\thirdparty\minhook\src">
+      <UniqueIdentifier>{fc5280fa-9996-4b83-86dd-365dc2e1254a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\thirdparty\minhook\src\hde">
+      <UniqueIdentifier>{3b7619ac-cf6b-4a68-819b-3a7243e015f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\memory">
+      <UniqueIdentifier>{82a8038d-b459-4010-8848-bd15b6c64196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\memory\hook">
+      <UniqueIdentifier>{1c0bd8ea-f4f3-4abd-84ef-69e695c004db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\memory\utils">
+      <UniqueIdentifier>{93ce0f25-2957-42e0-9966-297a2e7d2e89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\render">
+      <UniqueIdentifier>{5f3a1c09-6a9c-458a-a2dc-a4f8b1cbc262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\render\directx">
+      <UniqueIdentifier>{ecf32622-7b13-4175-9944-76ce3e1ff675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\render\font">
+      <UniqueIdentifier>{826e83f6-566f-4a27-8e7c-8cd7ad120299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\menu">
+      <UniqueIdentifier>{b36a004f-3ca1-4d80-aece-19c390d50bb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\menu\theme">
+      <UniqueIdentifier>{660ef683-8c0e-416b-97a0-24887d6bd727}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\cheat">
+      <UniqueIdentifier>{4b0317c1-0fe2-47eb-8294-5e0995fc0df7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\dllmain.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\debug\Debug.cpp">
+      <Filter>source\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="source\thirdparty\imgui\imgui.cpp">
+      <Filter>source\thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\thirdparty\imgui\imgui_demo.cpp">
+      <Filter>source\thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\thirdparty\imgui\imgui_draw.cpp">
+      <Filter>source\thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\thirdparty\imgui\imgui_tables.cpp">
+      <Filter>source\thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\thirdparty\imgui\imgui_widgets.cpp">
+      <Filter>source\thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\thirdparty\imgui\backends\imgui_impl_dx9.cpp">
+      <Filter>source\thirdparty\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="source\thirdparty\imgui\backends\imgui_impl_dx10.cpp">
+      <Filter>source\thirdparty\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="source\thirdparty\imgui\backends\imgui_impl_dx11.cpp">
+      <Filter>source\thirdparty\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="source\thirdparty\imgui\backends\imgui_impl_dx12.cpp">
+      <Filter>source\thirdparty\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="source\thirdparty\imgui\backends\imgui_impl_win32.cpp">
+      <Filter>source\thirdparty\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="source\thirdparty\minhook\src\buffer.c">
+      <Filter>source\thirdparty\minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\thirdparty\minhook\src\hook.c">
+      <Filter>source\thirdparty\minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\thirdparty\minhook\src\trampoline.c">
+      <Filter>source\thirdparty\minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\thirdparty\minhook\src\hde\hde32.c">
+      <Filter>source\thirdparty\minhook\src\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="source\thirdparty\minhook\src\hde\hde64.c">
+      <Filter>source\thirdparty\minhook\src\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="source\memory\hook\hook_engine.cpp">
+      <Filter>source\memory\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="source\memory\utils\utils.cpp">
+      <Filter>source\memory\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="source\render\directx\directx.cpp">
+      <Filter>source\render\directx</Filter>
+    </ClCompile>
+    <ClCompile Include="source\render\direct_hook.cpp">
+      <Filter>source\render</Filter>
+    </ClCompile>
+    <ClCompile Include="source\menu\menu.cpp">
+      <Filter>source\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="source\cheat\cheat.cpp">
+      <Filter>source\cheat</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\debug\Debug.h">
+      <Filter>source\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="source\thirdparty\imgui\imconfig.h">
+      <Filter>source\thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\thirdparty\imgui\imgui.h">
+      <Filter>source\thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\thirdparty\imgui\imgui_internal.h">
+      <Filter>source\thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\thirdparty\imgui\imstb_rectpack.h">
+      <Filter>source\thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\thirdparty\imgui\imstb_textedit.h">
+      <Filter>source\thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\thirdparty\imgui\imstb_truetype.h">
+      <Filter>source\thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\thirdparty\imgui\backends\imgui_impl_dx9.h">
+      <Filter>source\thirdparty\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="source\thirdparty\imgui\backends\imgui_impl_dx10.h">
+      <Filter>source\thirdparty\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="source\thirdparty\imgui\backends\imgui_impl_dx11.h">
+      <Filter>source\thirdparty\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="source\thirdparty\imgui\backends\imgui_impl_dx12.h">
+      <Filter>source\thirdparty\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="source\thirdparty\imgui\backends\imgui_impl_win32.h">
+      <Filter>source\thirdparty\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="source\thirdparty\minhook\include\MinHook.h">
+      <Filter>source\thirdparty\minhook\include</Filter>
+    </ClInclude>
+    <ClInclude Include="source\thirdparty\minhook\src\buffer.h">
+      <Filter>source\thirdparty\minhook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="source\thirdparty\minhook\src\trampoline.h">
+      <Filter>source\thirdparty\minhook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="source\thirdparty\minhook\src\hde\hde32.h">
+      <Filter>source\thirdparty\minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="source\thirdparty\minhook\src\hde\hde64.h">
+      <Filter>source\thirdparty\minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="source\thirdparty\minhook\src\hde\pstdint.h">
+      <Filter>source\thirdparty\minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="source\thirdparty\minhook\src\hde\table32.h">
+      <Filter>source\thirdparty\minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="source\thirdparty\minhook\src\hde\table64.h">
+      <Filter>source\thirdparty\minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="source\memory\vmt.h">
+      <Filter>source\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\memory\hook\hook_engine.h">
+      <Filter>source\memory\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="source\memory\utils\utils.h">
+      <Filter>source\memory\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="source\render\directx\directx.h">
+      <Filter>source\render\directx</Filter>
+    </ClInclude>
+    <ClInclude Include="source\render\direct_hook.h">
+      <Filter>source\render</Filter>
+    </ClInclude>
+    <ClInclude Include="source\render\font\font.h">
+      <Filter>source\render\font</Filter>
+    </ClInclude>
+    <ClInclude Include="source\menu\menu.h">
+      <Filter>source\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="source\menu\theme\theme.h">
+      <Filter>source\menu\theme</Filter>
+    </ClInclude>
+    <ClInclude Include="source\cheat\cheat.h">
+      <Filter>source\cheat</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
